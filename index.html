@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>UI Challenge - Custom Form Elements</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="username">text input</label>
+                <input type="text" id="username" placeholder="placeholder text">
+                <label for="username">text input w/ validation error</label>
+                <input type="text" id="username-validated" placeholder="placeholder text">
+                 <!-- onchange="validateUserName()" -->
+            </div>
+            <div>
+                <label for="options">select box</label>
+                <select name="options">
+                    <option value="" disabled selected>please select an option...</option>
+                    <option value="option-one">option 1</option>
+                    <option value="option-two">option 2</option>
+                    <option value="option-three">option 3</option>
+                    <option value="option-four">option 4</option>
+                    <option value="option-five">option 5</option>
+                </select>
+            </div>
+            <div>
+                <label for="checkbox">checkbox</label>
+                <input type="checkbox" id="checkbox">
+                <input type="checkbox" id="checkbox-checked">
+            </div>
+            <div>
+                <label for="radio">radio</label>
+                <input type="radio" id="radio">
+                <input type="radio" id="radio-checked">
+            </div>
+            <div>
+                <label for="button">buttons</label>
+                <button type="button" id="button">submit</button>
+                <button type="button" id="button-clicked">submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        This site created by the one and only Heather Palmer in August 2018
+    </footer>
+</body>
+</html>
