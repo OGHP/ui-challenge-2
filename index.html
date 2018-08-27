@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -16,14 +16,11 @@
     </header>
     <main>
         <form>
-            <div>
+            <section>
                 <label for="username">text input</label>
                 <input type="text" id="username" placeholder="placeholder text">
-                <label for="username">text input w/ validation error</label>
-                <input type="text" id="username-validated" placeholder="placeholder text">
-                 <!-- onchange="validateUserName()" -->
-            </div>
-            <div>
+            </section>
+            <section>
                 <label for="options">select box</label>
                 <select name="options">
                     <option value="" disabled selected>please select an option...</option>
@@ -33,26 +30,34 @@
                     <option value="option-four">option 4</option>
                     <option value="option-five">option 5</option>
                 </select>
-            </div>
-            <div>
-                <label for="checkbox">checkbox</label>
-                <input type="checkbox" id="checkbox">
-                <input type="checkbox" id="checkbox-checked">
-            </div>
-            <div>
-                <label for="radio">radio</label>
+            </section>
+
+            <section id="checkbox">
+                <label for="checkbox" class="sprite checkbox-unchecked">checkbox</label>
+                <input type="checkbox"  id="checkbox">
+            </section>
+
+            <section id="radio">
+                <label for="radio" class="sprite radio-unchecked">radio</label>
                 <input type="radio" id="radio">
-                <input type="radio" id="radio-checked">
-            </div>
-            <div>
+            </section>
+
+            <section>
                 <label for="button">buttons</label>
                 <button type="button" id="button">submit</button>
-                <button type="button" id="button-clicked">submit</button>
-            </div>
+            </section>
         </form>
     </main>
     <footer>
         This site created by the one and only Heather Palmer in August 2018
     </footer>
+    <script>
+        $("#checkbox > sprite").click(function () {
+            $(this).toggleClass("checkbox-checked");
+        });
+        $("#radio > sprite").click(function () {
+            $(this).toggleClass("radio-checked");
+        });
+    </script>
 </body>
 </html>

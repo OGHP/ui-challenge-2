@@ -7,13 +7,6 @@ input, label {
 #username, #username-validated {
     width: 30%;
 }
-input[type=checkbox] {
-  display: inline;
-}
-
-input[type=radio] {
-  display: inline;
-}
 
 /* DROP DOWN REMOVE BORDER-RADIUS */
 select {
@@ -21,4 +14,48 @@ select {
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
     width: 30%;
+}
+
+.sprite {
+    background: url('images/form-elements-sprite.png');
+    background-repeat: no-repeat;
+}
+
+/******* CHECKBOX *******/
+#checkbox input{
+    display: none;
+}
+
+.checkbox-unchecked {
+    background-position: -37px -56px;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+/* JS */
+.checkbox-checked {
+    background-position: -89px -56px;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+/****** RADIO *******/
+#radio input{
+    display: none;
+}
+
+.radio-unchecked {
+    background-position: -136px -56px;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.radio-checked {
+    background-position: -190px -56px;
+    display: block;
+    height: 100px;
+    width: 100px;
 }
