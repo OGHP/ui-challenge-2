@@ -15,46 +15,46 @@ select {
     width: 30%;
 }
 
-.sprite {
-    background-image: url('/images/form-elements-sprite.png');
-    background-repeat: no-repeat;
-}
-
-/******* CHECKBOX *******/
-#checkbox input{
+/* CHECKBOX & RADIO */
+#the-checkbox{
     display: none;
 }
 
+#the-radio {
+    display: none;
+}
+
+.sprite {
+    background-image: url('/images/form-elements-sprite.png');
+    background-repeat: no-repeat;
+    background-size: 320px;
+}
+
 .checkbox-unchecked {
-    background-position: -158px -260px;
+    background-position: -28px -52px;
     display: block;
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 51px;
 }
 
 /* JS */
 .checkbox-checked {
-    background-position: -89px -56px;
+    background-position: -77px -52px;
     display: block;
-    height: 100px;
-    width: 100px;
-}
-
-/****** RADIO *******/
-#radio input{
-    display: none;
+    height: 38px;
+    width: 51px;
 }
 
 .radio-unchecked {
-    background-position: -136px -56px;
+    background-position: -123px -52px;
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 38px;
+    width: 51px;
 }
 
 .radio-checked {
-    background-position: -190px -56px;
+    background-position: -172px -52px;
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 38px;
+    width: 51px;
 }

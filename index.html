@@ -20,9 +20,10 @@
                 <label for="username">text input</label>
                 <input type="text" id="username" placeholder="placeholder text">
             </section>
+
             <section>
                 <label for="options">select box</label>
-                <select name="options">
+                <select class="sprite" name="options">
                     <option value="" disabled selected>please select an option...</option>
                     <option value="option-one">option 1</option>
                     <option value="option-two">option 2</option>
@@ -35,17 +36,18 @@
             <section id="checkbox">
                 <label>checkbox</label>
                 <br>
-                <input type="checkbox" id="checkbox">
-                <label for="checkbox" class="sprite checkbox-unchecked">
+                <input id="the-checkbox" type="checkbox">
+                <label class="sprite checkbox-unchecked" for="the-checkbox">
             </section>
 
-            <section id="radio">
-                <label>checkbox</label>
+            <section>
+                <label>radio</label>
                 <br>
-                <input type="radio" id="radio">
-                <label for="radio" class="sprite radio-unchecked">radio</label>
+                <input id="the-radio" type="radio">
+                <label class="sprite radio-unchecked" for="the-radio">
             </section>
 
+            </label>
             <section>
                 <label for="button">buttons</label>
                 <button type="button" id="button">submit</button>
@@ -56,10 +58,10 @@
         This site created by the one and only Heather Palmer in August 2018
     </footer>
     <script>
-        $("#checkbox > sprite").click(function () {
+        $("#the-checkbox > sprite").click(function () {
             $(this).toggleClass("checkbox-checked");
         });
-        $("#radio > sprite").click(function () {
+        $("#the-radio > sprite").click(function () {
             $(this).toggleClass("radio-checked");
         });
     </script>
