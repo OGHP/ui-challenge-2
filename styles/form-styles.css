@@ -1,20 +1,3 @@
-input, label {
-    display:block;
-    font-size: 16px;
-}
-
-#username, #username-validated {
-    width: 30%;
-}
-
-/* DROP DOWN REMOVE BORDER-RADIUS */
-select {
-    padding: 8px;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0px;
-    width: 30%;
-}
-
 /* CHECKBOX & RADIO */
 #the-checkbox{
     display: none;
@@ -31,29 +14,29 @@ select {
 }
 
 .checkbox-unchecked {
-    background-position: -28px -52px;
+    background-position: -158px -239px;
     display: block;
-    height: 38px;
-    width: 51px;
+    height: 160px;
+    width: 160px;
 }
 
 /* JS */
 .checkbox-checked {
-    background-position: -77px -52px;
+    background-position: -381px -239px;
     display: block;
     height: 38px;
     width: 51px;
 }
 
 .radio-unchecked {
-    background-position: -123px -52px;
+    background-position: -582px -242px;
     display: block;
     height: 38px;
     width: 51px;
 }
 
 .radio-checked {
-    background-position: -172px -52px;
+    background-position: -812px -242px;
     display: block;
     height: 38px;
     width: 51px;
