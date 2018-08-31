@@ -1,27 +1,99 @@
+label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+input[type=radio], input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + span {
+    /* edit position */
+    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    height: 160px;
+    width: 160px;
+}
+
+input[type=checkbox]:checked + span {
+    /* edit position */
+    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    height: 160px;
+    width: 160px;
+}
+
+input[type=radio] + span {
+    /* edit position */
+    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    height: 160px;
+    width: 160px;
+}
+
+input[type=radio]:checked + span {
+    /* edit position */
+    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    height: 160px;
+    width: 160px;
+}
+
+input[type=checkbox] + span,
+input[type=checkbox]:checked + span,
+input[type=radio] + span,
+input[type=radio]:checked + span {
+    background-size: 300px 130px;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+}
+
+.select {
+    display: inline-block;
+    position: relative;
+}
+
+.select:after {
+    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    background-size: 300px 130px;
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 3px;
+}
+
+select {
+    -webkit-appearance: none;
+    padding: .5em;
+    padding-right: 4em;
+}
+
+
 /* CHECKBOX & RADIO */
-#the-checkbox{
+/* #the-checkbox{
     display: none;
 }
 
 #the-radio {
     display: none;
-}
+} */
 
-.sprite {
-    background-image: url('/images/form-elements-sprite.png');
+/* .sprite {
+    background-image: url('images/form-elements-sprite.png');
     background-repeat: no-repeat;
     background-size: 320px;
 }
 
 .checkbox-unchecked {
+    background-image: url('images/form-elements-sprite.png');
     background-position: -158px -239px;
     display: block;
     height: 160px;
     width: 160px;
-}
+} */
 
 /* JS */
-.checkbox-checked {
+/* .checkbox-checked {
+    background-image: url('images/form-elements-sprite.png');
     background-position: -381px -239px;
     display: block;
     height: 38px;
@@ -29,6 +101,7 @@
 }
 
 .radio-unchecked {
+    background-image: url('images/form-elements-sprite.png');
     background-position: -582px -242px;
     display: block;
     height: 38px;
@@ -36,8 +109,9 @@
 }
 
 .radio-checked {
+    background-image: url('images/form-elements-sprite.png');
     background-position: -812px -242px;
     display: block;
     height: 38px;
     width: 51px;
-}
+} */

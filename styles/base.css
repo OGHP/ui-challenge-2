@@ -17,10 +17,6 @@ header {
     text-align: center;
 }
 
-section {
-    padding-bottom: 2em;
-}
-
 footer {
     background-color: lightgray;
     font-size: 1em;
@@ -30,19 +26,12 @@ footer {
 }
 
 /* ADDITIONAL STYLING */
-input, label {
+/* input, label {
     display:block;
     font-size: 16px;
-}
+} */
 
 #username, #username-validated {
     width: 30%;
 }
 
-/* DROP DOWN REMOVE BORDER-RADIUS */
-select {
-    padding: 8px;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0px;
-    width: 30%;
-}
