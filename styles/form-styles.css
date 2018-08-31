@@ -9,28 +9,28 @@ input[type=radio], input[type=checkbox] {
 
 input[type=checkbox] + span {
     /* edit position */
-    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
-    height: 160px;
-    width: 160px;
+	background: url('../images/form-elements-sprite.png') no-repeat 12.22% 49.585%;
+	width: 161px;
+	height: 160px;
 }
 
 input[type=checkbox]:checked + span {
     /* edit position */
-    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
     height: 160px;
     width: 160px;
 }
 
 input[type=radio] + span {
     /* edit position */
-    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
     height: 160px;
     width: 160px;
 }
 
 input[type=radio]:checked + span {
     /* edit position */
-    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
     height: 160px;
     width: 160px;
 }
@@ -51,7 +51,7 @@ input[type=radio]:checked + span {
 }
 
 .select:after {
-    background: url('images/form-elements-sprite.png') no-repeat 40% 50%;
+    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
     background-size: 300px 130px;
     content: '';
     height: 20px;
