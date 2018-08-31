@@ -1,0 +1,43 @@
+/* CHECKBOX & RADIO */
+#the-checkbox{
+    display: none;
+}
+
+#the-radio {
+    display: none;
+}
+
+.sprite {
+    background-image: url('/images/form-elements-sprite.png');
+    background-repeat: no-repeat;
+    background-size: 320px;
+}
+
+.checkbox-unchecked {
+    background-position: -158px -239px;
+    display: block;
+    height: 160px;
+    width: 160px;
+}
+
+/* JS */
+.checkbox-checked {
+    background-position: -381px -239px;
+    display: block;
+    height: 38px;
+    width: 51px;
+}
+
+.radio-unchecked {
+    background-position: -582px -242px;
+    display: block;
+    height: 38px;
+    width: 51px;
+}
+
+.radio-checked {
+    background-position: -812px -242px;
+    display: block;
+    height: 38px;
+    width: 51px;
+}
