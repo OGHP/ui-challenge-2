@@ -8,31 +8,27 @@ input[type=radio], input[type=checkbox] {
 }
 
 input[type=checkbox] + span {
-    /* edit position */
 	background: url('../images/form-elements-sprite.png') no-repeat 12.22% 49.585%;
     width: 44px;
     height: 45px;
 }
 
 input[type=checkbox]:checked + span {
-    /* edit position */
-    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
-    height: 160px;
-    width: 160px;
+    background: url('../images/form-elements-sprite.png') no-repeat repeat 29% 50%;
+    height: 44px;
+    width: 45px;
 }
 
 input[type=radio] + span {
-    /* edit position */
-    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
-    height: 160px;
-    width: 160px;
+    background: url('../images/form-elements-sprite.png') no-repeat 45% 50%;
+    height: 40px;
+    width: 45px;
 }
 
 input[type=radio]:checked + span {
-    /* edit position */
-    background: url('../images/form-elements-sprite.png') no-repeat 40% 50%;
-    height: 160px;
-    width: 160px;
+    background: url('../images/form-elements-sprite.png') no-repeat 65% 50%;
+    height: 40px;
+    width: 45px;
 }
 
 input[type=checkbox] + span,
