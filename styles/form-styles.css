@@ -14,6 +14,7 @@
 }
 
 .checkbox-unchecked {
+    background-image: url('/images/form-elements-sprite.png');
     background-position: -158px -239px;
     display: block;
     height: 160px;
@@ -22,6 +23,7 @@
 
 /* JS */
 .checkbox-checked {
+    background-image: url('/images/form-elements-sprite.png');
     background-position: -381px -239px;
     display: block;
     height: 38px;
@@ -29,6 +31,7 @@
 }
 
 .radio-unchecked {
+    background-image: url('/images/form-elements-sprite.png');
     background-position: -582px -242px;
     display: block;
     height: 38px;
@@ -36,6 +39,7 @@
 }
 
 .radio-checked {
+    background-image: url('/images/form-elements-sprite.png');
     background-position: -812px -242px;
     display: block;
     height: 38px;
